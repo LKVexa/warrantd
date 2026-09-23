@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=78,<85"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "warrantd"
+version = "0.1.2a1"
+description = "Experimental artifact acceptance warrants with independent Ed25519 verification"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0 AND MIT"
+license-files = ["LICENSE", "NOTICE", "THIRD-PARTY-NOTICES.md", "warrantd/LICENSE.merklecpp.txt"]
+authors = [{name = "RUSSELL PHILIP SMITHSON"}]
+dependencies = ["cryptography>=50.0.1,<51"]
+
+[project.scripts]
+warrantd-verify = "warrantd.verify:main"
+
+[tool.setuptools.packages.find]
+include = ["warrantd*"]
+
+[tool.setuptools.package-data]
+warrantd = ["LICENSE.merklecpp.txt"]

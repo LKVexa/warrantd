@@ -1,0 +1,2 @@
+# Validated direct runtime dependency. Transitive dependencies are resolved by pip.
+cryptography==50.0.1
