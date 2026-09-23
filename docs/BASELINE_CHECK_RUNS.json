@@ -1,0 +1,27 @@
+{
+ "build": "JY-GRP01-P001/0.1.1-partial/run-0001",
+ "environment": {
+  "executor": "Claude (claude-fable-5) via Cowork cloud session 01SaQzDRzMFXvRabmCC6JDJD",
+  "python": "3.11.15",
+  "platform": "Linux",
+  "cryptography": "46.0.7"
+ },
+ "checks": [
+  {
+   "id": "unit-and-boundary-tests",
+   "command": "python3 -m unittest discover -s tests -t .",
+   "result": "PASS 29/29 (22 baseline incl. all twelve section-12 boundary demonstrations + 7 maintenance repair tests)",
+   "captured_at": "2026-09-14T18:30:35Z"
+  }
+ ],
+ "unrun_checks": [
+  "separate-host/service-identity isolation (section 2 full separation)",
+  "production key custody / HSM",
+  "revocation distribution infrastructure",
+  "archive validation & toolchain pinning breadth (6.1-6.3)",
+  "organizational role assignment sign-off (1.1)",
+  "independent human review",
+  "Windows native launch (no Windows runtime this session)"
+ ],
+ "note": "Evidence current for these inputs on this host only."
+}
