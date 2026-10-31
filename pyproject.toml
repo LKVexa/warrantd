@@ -8,8 +8,8 @@ version = "0.1.2a1"
 description = "Experimental artifact acceptance warrants with independent Ed25519 verification"
 readme = "README.md"
 requires-python = ">=3.10"
-license = "Apache-2.0 AND MIT"
-license-files = ["LICENSE", "NOTICE", "THIRD-PARTY-NOTICES.md", "warrantd/LICENSE.merklecpp.txt"]
+license = "GPL-3.0-only AND MIT"
+license-files = ["LICENSE", "NOTICE", "COPYRIGHT", "THIRD-PARTY-NOTICES.md", "warrantd/LICENSE.merklecpp.txt"]
 authors = [{name = "RUSSELL PHILIP SMITHSON"}]
 dependencies = ["cryptography>=50.0.1,<51"]
 

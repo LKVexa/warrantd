@@ -7,7 +7,7 @@ records their outcomes, and signs passing artifact warrants with Ed25519.
 A separate consumer process verifies the signature, artifact, expected scope,
 grant authorization and validity, and revocation policy.
 
-Copyright 2026 **RUSSELL PHILIP SMITHSON**.
+Copyright (C) 2026 **RUSSELL PHILIP SMITHSON**.
 
 ## Install and test
 
@@ -86,6 +86,8 @@ Historical check evidence is retained separately.
 ## License and notice
 
 Original project code and the September 2026 modifications are licensed under
-the [Apache License 2.0](LICENSE), copyright **RUSSELL PHILIP SMITHSON**.
+the [GNU General Public License, version 3 only (GPL-3.0-only)](LICENSE), copyright **RUSSELL PHILIP SMITHSON**.
 The Merkle construction retains its upstream MIT attribution and license.
 Read [NOTICE](NOTICE) and [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+
+See [COPYRIGHT](COPYRIGHT) for the project copyright and GPL notice.
